@@ -1,0 +1,22 @@
+{
+  "name": "erc20-102-solution",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "solve:sepolia": "hardhat run scripts/solve.ts --network sepolia",
+    "solve:arb": "hardhat run scripts/solve.ts --network arbitrumSepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.4.0"
+  }
+}
